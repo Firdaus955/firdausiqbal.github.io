@@ -1,0 +1,43 @@
+@media (max-width: 1000px) {
+    header {
+        padding: 0 50px;
+    }
+    .flex-list li {
+        padding-left: 25px;
+    }
+    .atas-wrapper h1 {
+        font-size: 75px;
+    }
+    .lesson {
+        width: 50%;
+    }
+    .judul {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 690px) {
+    header {
+        padding: 0;
+    }
+    .flex-list {
+        flex-direction: column;
+        right: 0;
+        display: none;
+    }
+    .lesson {
+        width: 100%;
+    }
+    .lessons-icon img {
+        width: 50%;
+    }
+    header {
+        padding-left: 20px;
+    }
+    .atas-wrapper {
+        text-align: left;
+    }
+}
+@media (max-width: 405px) {
+    
+}
